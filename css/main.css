@@ -29,16 +29,37 @@ main {
 dl {
   display: block;
   overflow: hidden;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: .875rem;
 }
 
 dt {
   float: left;
-  clear: both;
-  min-width: 6em;
+  min-width: 8em;
 
 }
 
 dd {
   float: left;
   font-style: italic;
+}
+footer {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+footer aside a {
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  background-color: #785439;
+  color: #f0eee8;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+  border: 2px solid #785439;
+  border-radius: 8px;
+  padding: .5rem;
 }
