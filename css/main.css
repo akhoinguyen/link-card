@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+  background-color: #f0eee8;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+main {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #512200;
+}
+
+dl {
+  display: block;
+  overflow: hidden;
+}
+
+dt {
+  float: left;
+  clear: both;
+  min-width: 6em;
+
+}
+
+dd {
+  float: left;
+  font-style: italic;
+}
