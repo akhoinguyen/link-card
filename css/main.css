@@ -15,7 +15,7 @@ body {
   border-radius: 8px;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   margin: 0 0 1rem;
@@ -23,7 +23,9 @@ h2 {
 main {
   font-size: 1rem;
   padding: 1rem;
+  padding-bottom: 0;
   color: #512200;
+  display: block;
 }
 
 dl {
@@ -34,32 +36,44 @@ dl {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: .875rem;
+  margin-bottom: 0;
 }
 
 dt {
   float: left;
-  min-width: 8em;
+  min-width: 7.5em;
 
 }
 
 dd {
   float: left;
   font-style: italic;
+  display: inline-block;
 }
-footer {
+div {
   text-align: center;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
-footer aside a {
+div p {
+  display:inline-block;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
   background-color: #785439;
   color: #f0eee8;
   text-decoration: none;
-  padding: .4em .75em .5em;
   border: 2px solid #785439;
   border-radius: 8px;
-  padding: .5rem;
+  padding: .3rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
